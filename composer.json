@@ -1,0 +1,31 @@
+{
+  "name": "robrs/clicksign_php",
+  "description": "PHP client to consume Clicksign V1 JSON API",
+  "keywords": [
+    "clicksign",
+    "rest-client"
+  ],
+  "homepage": "https://github.com/robrs/clicksign_php",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Roberto Rocha",
+      "email": "robrs.web@gmail.com",
+      "role": "Developer",
+      "homepage": "https://robertorochadev.com.br/"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": "7.0.33"
+  },
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Clicksign\\": "src/Clicksign"
+    }
+  }
+}
