@@ -18,7 +18,7 @@
   ],
   "minimum-stability": "dev",
   "require": {
-    "php": "7.0.33"
+    "php": ">=7.0.33"
   },
   "config": {
     "vendor-dir": "vendor"
